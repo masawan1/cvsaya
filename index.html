@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Diri - [Dwi Frediawan, S.Pd]</title>
+    
+    <!-- Memuat Tailwind CSS dari CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Memuat Google Fonts (Inter) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Menggunakan font Inter sebagai default */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Animasi sederhana untuk card */
+        .card-hover {
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+    </style>
+</head>
+<body class="bg-slate-900 text-slate-200">
+
+    <!-- Kontainer Utama -->
+    <div class="container mx-auto p-4 sm:p-6 md:p-8 max-w-4xl">
+
+        <!-- Bagian Header Profil -->
+        <header class="flex flex-col sm:flex-row items-center mb-12">
+            <img 
+                src= "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxVnb-4MYuc1qITi4Kw1H7h-Sx_irIALiU0uEGkbjwMoEgr69LtugJZuyPnlc6tNonOf7QsqCNqz7PFT4LDWNnbxqYaTP16xDfaFiZgr3oUIroG5SO0TNVPx73qBPSHFOwmA0jUNTwYHVuAv-nwbVkaxeIZywfXf3_5Z6QF8MpbjjHgFeMGZtBZrw5mrI/s1600/Fotoaku.jpg" 
+                alt="Foto Profil" 
+                class="w-32 h-32 rounded-full border-4 border-slate-700 shadow-lg mb-4 sm:mb-0 sm:mr-8"
+                onerror="this.onerror=null;this.src='https://placehold.co/128x128/1e293b/94a3b8?text=Gagal+Muat';"
+            >
+            <div>
+                <h1 class="text-4xl font-bold text-white text-center sm:text-left">Dwi Frediawan, S.Pd</h1>
+                <p class="text-xl text-teal-400 font-light text-center sm:text-left">Guru | Web Developer | Mahasiswa PPG Guru Tertentu 2025 | Freelancer | Affiliate marketing </p>
+            </div>
+        </header>
+
+        <!-- Bagian Identitas Diri -->
+        <section class="bg-slate-800 p-6 rounded-lg shadow-md mb-10">
+            <h2 class="text-2xl font-bold text-white mb-4 border-b-2 border-teal-500 pb-2">Profil Diri</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-slate-300">
+                <p><strong class="font-semibold text-white">Nama:</strong> Dwi Frediawan</p>
+                <p><strong class="font-semibold text-white">Tempat, Tgl Lahir:</strong> Pekalongan, 24-02-1997</p>
+                <p><strong class="font-semibold text-white">Email:</strong> dwiawan081@gmail.com | dwifrediawan42@guru.smk.belajar.id</p>
+                <p><strong class="font-semibold text-white">No. WhatsApp:</strong> 0823 1482 2991</p>
+                <p><strong class="font-semibold text-white">Domisili:</strong> Dk. Jatimalang RT 2 RW 4, Sragi, Kec. Sragi</p>
+            </div>
+        </section>
+
+        <!-- Bagian Riwayat Pendidikan (Timeline) -->
+        <section class="mb-10">
+            <h2 class="text-2xl font-bold text-white mb-6 border-b-2 border-teal-500 pb-2">Riwayat Pendidikan</h2>
+            <div class="relative border-l-2 border-slate-700 ml-3">
+                <!-- Item Timeline -->
+                <div class="mb-8 ml-8">
+                    <div class="absolute -left-4 top-1 w-8 h-8 bg-teal-500 rounded-full flex items-center justify-center">
+                        <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v11.494m-9-5.747h18"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-white">S1 - Pendidikan Informatika</h3>
+                    <p class="text-teal-400">Universitas Ivet Semarang</p>
+                    <p class="text-teal-100 text-white">IPK 3.43</p>
+                    <time class="text-sm font-normal leading-none text-slate-400">2020 - 2022</time>
+                </div>
+                <!-- Item Timeline -->
+                <div class="mb-8 ml-8">
+                    <div class="absolute -left-4 top-1 w-8 h-8 bg-teal-500 rounded-full flex items-center justify-center">
+                        <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v11.494m-9-5.747h18"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-white">D3 - Manajemen Informatika</h3>
+                    <p class="text-teal-400">Politeknik Muhammadiyah Pekalongan</p>
+                    <p class="text-teal-100 text-white">IPK 3.31</p>
+                    <time class="text-sm font-normal leading-none text-slate-400">2015 - 2019</time>
+                </div>
+                <!-- Item Timeline -->
+                <div class="mb-8 ml-8">
+                    <div class="absolute -left-4 top-1 w-8 h-8 bg-teal-500 rounded-full flex items-center justify-center">
+                        <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v11.494m-9-5.747h18"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-white">SMK - Teknik Komputer dan Jaringan</h3>
+                    <p class="text-teal-400">SMK Muhammadiyah Bojong</p>
+                    <time class="text-sm font-normal leading-none text-slate-400">2012 - 2015</time>
+                </div>
+                 <!-- Item Timeline -->
+                <div class="mb-8 ml-8">
+                    <div class="absolute -left-4 top-1 w-8 h-8 bg-teal-500 rounded-full flex items-center justify-center">
+                        <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v11.494m-9-5.747h18"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-white">SMP</h3>
+                    <p class="text-teal-400">SMP N 1 Sragi</p>
+                    <time class="text-sm font-normal leading-none text-slate-400">2009 - 2012</time>
+                </div>
+                 <!-- Item Timeline -->
+                <div class="ml-8">
+                    <div class="absolute -left-4 top-1 w-8 h-8 bg-teal-500 rounded-full flex items-center justify-center">
+                        <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v11.494m-9-5.747h18"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-white">SD</h3>
+                    <p class="text-teal-400">SD N 02 Tegalontar</p>
+                    <time class="text-sm font-normal leading-none text-slate-400">2003 - 2009</time>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bagian Pelatihan & Sertifikasi -->
+        <section class="mb-10">
+            <h2 class="text-2xl font-bold text-white mb-6 border-b-2 border-teal-500 pb-2">Pelatihan & Sertifikasi</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <!-- Card Pelatihan -->
+                <div class="bg-slate-800 p-6 rounded-lg shadow-md card-hover">
+                    <h3 class="font-bold text-lg text-white">Sertifikat Kompetensi "Instruktur Senior"</h3>
+                    <p class="text-teal-400 font-medium">Badan Nasional Sertifikasi Profesi LSP Universitas Ivet Semarang</p>
+                    <p class="text-slate-400 text-sm mt-2">Diperoleh pada Tahun 2022</p>
+                </div>
+                <!-- Card Pelatihan -->
+                <div class="bg-slate-800 p-6 rounded-lg shadow-md card-hover">
+                    <h3 class="font-bold text-lg text-white">Sertifikat Pelatihan "Google Digital Entrepreneurship Kelas Umum
+Program Digital Entrepreneur Academy - Digital Talent Scholarship"</h3>
+                    <p class="text-teal-400 font-medium">KOMINFO & Google</p>
+                    <p class="text-slate-400 text-sm mt-2">Diperoleh pada September, 2021</p>
+                </div>
+                <!-- Card Pelatihan -->
+                <div class="bg-slate-800 p-6 rounded-lg shadow-md card-hover">
+                    <h3 class="font-bold text-lg text-white">Sertifikat Pelatihan "Top Class : Sandiaga Uno Mengajar Bisnis"</h3>
+                    <p class="text-teal-400 font-medium">Rumah Siap Kerja</p>
+                    <p class="text-slate-400 text-sm mt-2">Diperoleh pada Maret, 2021</p>
+                </div>
+                <!-- Card Pelatihan -->
+                <div class="bg-slate-800 p-6 rounded-lg shadow-md card-hover">
+                    <h3 class="font-bold text-lg text-white">Sertifikat Kompetensi "Memulai Pemrograman Dengan Kotlin"</h3>
+                    <p class="text-teal-400 font-medium">Dicoding Indonesia</p>
+                    <p class="text-slate-400 text-sm mt-2">Diperoleh pada Mei, 2023</p>
+                </div>
+                <!-- Card Pelatihan -->
+                <div class="bg-slate-800 p-6 rounded-lg shadow-md card-hover">
+                    <h3 class="font-bold text-lg text-white">Sertifikat Kompetensi "Belajar Dasar Cloud dan Gen AI di AWS"</h3>
+                    <p class="text-teal-400 font-medium">Dicoding Indonesia</p>
+                    <p class="text-slate-400 text-sm mt-2">Diperoleh pada Juni, 2025</p>
+                </div>
+                <!-- Card Pelatihan -->
+                <div class="bg-slate-800 p-6 rounded-lg shadow-md card-hover">
+                    <h3 class="font-bold text-lg text-white">Sertifikat Kompetensi "Belajar Dasar Cloud dan Gen AI di AWS"</h3>
+                    <p class="text-teal-400 font-medium">Dicoding Indonesia</p>
+                    <p class="text-slate-400 text-sm mt-2">Diperoleh pada Juni, 2025</p>
+                </div>
+                <!-- Card Pelatihan -->
+                <div class="bg-slate-800 p-6 rounded-lg shadow-md card-hover">
+                    <h3 class="font-bold text-lg text-white">Sertifikat "Dasar dan Penggunaan Generatif AI"</h3>
+                    <p class="text-teal-400 font-medium">AI Opportunity fund: Asia Pasific, Codepolitan, didukung oleh Google.org dan Asian Develpoment Bank</p>
+                    <p class="text-slate-400 text-sm mt-2">Diperoleh pada Juni, 2025</p>
+                </div>
+                <!-- Tambahkan card lain jika perlu -->
+            </div>
+        </section>
+
+        <!-- Bagian Proyek Sampingan -->
+        <section>
+            <h2 class="text-2xl font-bold text-white mb-6 border-b-2 border-teal-500 pb-2">Proyek Sampingan (Freelance)</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <!-- Card Proyek -->
+                <div class="bg-slate-800 p-6 rounded-lg shadow-md card-hover">
+                    <h3 class="font-bold text-lg text-white">Microstock</h3>
+                    <p class="text-teal-400 font-medium">Desain Vector, Ilustrasi dan Foto</p>
+                    <p class="text-slate-300 mt-2">Kontributor Konten Digital "Gaji Dollar, Negara asal pembeli India, Pakistan, Amerika dan Australia" dari tahun 2019 aktif stock sampai 2020</p>
+                </div>
+                <!-- Card Proyek -->
+                <div class="bg-slate-800 p-6 rounded-lg shadow-md card-hover">
+                    <h3 class="font-bold text-lg text-white">Affiliate Marketing</h3>
+                    <p class="text-teal-400 font-medium">Content Creator</p>
+                    <p class="text-slate-300 mt-2">Mempromosikan Produk Melalui Video. Penghasilan Terbesar Saat Ini dengan total Penjualan Rp. 24.000.000</p>
+                </div>
+                <!-- Card Proyek -->
+                <div class="bg-slate-800 p-6 rounded-lg shadow-md card-hover">
+                    <h3 class="font-bold text-lg text-white">Jasa Desain</h3>
+                    <p class="text-teal-400 font-medium">Desain Poster Kesehatan</p>
+                    <p class="text-slate-300 mt-2">Mendesain Poster sesuai Request dari Buyyer, Alhamdulillah Juara 2 tingkat provinsi</p>
+                </div>
+                <!-- Card Proyek -->
+                <div class="bg-slate-800 p-6 rounded-lg shadow-md card-hover">
+                    <h3 class="font-bold text-lg text-white">Buka Konter</h3>
+                    <p class="text-teal-400 font-medium">Jual Aksesoris sampai dengan diamond Games</p>
+                    <p class="text-slate-300 mt-2">2019 sampai 2024</p>
+                </div>
+                 <!-- Tambahkan card lain jika perlu -->
+            </div>
+        </section>
+
+        <!-- Bagian Riwayat Pekerjaan (Timeline) -->
+        <section class="mt-12 mb-10">
+            <h2 class="text-2xl font-bold text-white mb-6 border-b-2 border-teal-500 pb-2">Jabatan Pekerjaan</h2>
+            <div class="relative border-l-2 border-slate-700 ml-3">
+                <!-- Item Timeline -->
+                <div class="mb-8 ml-8">
+                    <div class="absolute -left-4 top-1 w-8 h-8 bg-teal-500 rounded-full flex items-center justify-center">
+                        <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-white">Kepala Tata Usaha</h3>
+                    <p class="text-teal-400">SMK Muhammadiyah Bojong</p>
+                    <time class="text-sm font-normal leading-none text-slate-400">Juli, 2015 - Sekarang</time>
+                    <p class="mt-2 text-slate-300">Mengelola Seluruh Data Sekolah.</p>
+                </div>
+                <!-- Item Timeline Lain (jika ada) -->
+                <div class="mb-8 ml-8">
+                    <div class="absolute -left-4 top-1 w-8 h-8 bg-teal-500 rounded-full flex items-center justify-center">
+                        <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-white">Guru</h3>
+                    <p class="text-teal-400">SMK Muhammadiyah Bojong</p>
+                    <time class="text-sm font-normal leading-none text-slate-400">2022 - Sekarang</time>
+                     <p class="mt-2 text-slate-300">Informatika dan Dasar-Dasar Program Keahlian Broadcasting dan Perfilman</p>
+                </div>
+
+                <div class="mb-8 ml-8">
+                    <div class="absolute -left-4 top-1 w-8 h-8 bg-teal-500 rounded-full flex items-center justify-center">
+                        <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-semibold text-white">Pengurus Bursa Kerja Khusus "BKK"</h3>
+                    <p class="text-teal-400">Karya Mandiri SMK Muhammadiyah Bojong</p>
+                    <time class="text-sm font-normal leading-none text-slate-400">2017 - Sekarang</time>
+                     <p class="mt-2 text-slate-300">Membekali Siswa Siswi Masuk Dunia Kerja "Fasilitator Psikotes sampai dengan Interview"</p>
+                </div>
+            </div>
+        </section>
+
+                <!-- Bagian Galeri Foto -->
+        <section>
+            <h2 class="text-2xl font-bold text-white mb-6 border-b-2 border-teal-500 pb-2">Galeri Foto</h2>
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+                <!-- Foto 1 -->
+                <div class="group relative overflow-hidden rounded-lg">
+                    <a href="https://placehold.co/800x800/1e293b/94a3b8?text=Foto+1" target="_blank">
+                        <img src="https://placehold.co/400x400/1e293b/94a3b8?text=Foto+1" alt="Deskripsi Foto 1" class="w-full h-full object-cover aspect-square transition-transform duration-300 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-all duration-300 flex items-center justify-center">
+                            <p class="text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 font-semibold">Lihat</p>
+                        </div>
+                    </a>
+                </div>
+                <!-- Foto 2 -->
+                <div class="group relative overflow-hidden rounded-lg">
+                    <a href="https://placehold.co/800x800/1e293b/94a3b8?text=Foto+2" target="_blank">
+                        <img src="https://placehold.co/400x400/1e293b/94a3b8?text=Foto+2" alt="Deskripsi Foto 2" class="w-full h-full object-cover aspect-square transition-transform duration-300 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-all duration-300 flex items-center justify-center">
+                             <p class="text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 font-semibold">Lihat</p>
+                        </div>
+                    </a>
+                </div>
+                <!-- Foto 3 -->
+                <div class="group relative overflow-hidden rounded-lg">
+                    <a href="https://placehold.co/800x800/1e293b/94a3b8?text=Foto+3" target="_blank">
+                        <img src="https://placehold.co/400x400/1e293b/94a3b8?text=Foto+3" alt="Deskripsi Foto 3" class="w-full h-full object-cover aspect-square transition-transform duration-300 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-all duration-300 flex items-center justify-center">
+                             <p class="text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 font-semibold">Lihat</p>
+                        </div>
+                    </a>
+                </div>
+                <!-- Foto 4 -->
+                <div class="group relative overflow-hidden rounded-lg">
+                    <a href="https://placehold.co/800x800/1e293b/94a3b8?text=Foto+4" target="_blank">
+                        <img src="https://placehold.co/400x400/1e293b/94a3b8?text=Foto+4" alt="Deskripsi Foto 4" class="w-full h-full object-cover aspect-square transition-transform duration-300 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-all duration-300 flex items-center justify-center">
+                             <p class="text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 font-semibold">Lihat</p>
+                        </div>
+                    </a>
+                </div>
+                <!-- Tambahkan foto lainnya di sini -->
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="text-center mt-12 py-4 border-t border-slate-700">
+            <p class="text-slate-500">&copy; <span id="year"></span> [Nama Anda]. Dibuat dengan ❤️.</p>
+        </footer>
+
+    </div>
+
+    <script>
+        // Script sederhana untuk menampilkan tahun saat ini di footer
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+
+</body>
+</html>
